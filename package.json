@@ -1,0 +1,26 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "Chrome application for IM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chrome-app",
+    "xmpp"
+  ],
+  "author": "vstukanov@me.com",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^1.12.14"
+  },
+  "dependencies": {
+    "encoding": "^0.1.12",
+    "moment": "^2.12.0",
+    "sax": "^1.1.6",
+    "sprintf-js": "^1.0.3",
+    "underscore": "^1.8.3",
+    "wolfy87-eventemitter": "^4.3.0"
+  }
+}
